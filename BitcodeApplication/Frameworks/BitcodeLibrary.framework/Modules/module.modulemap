@@ -1,0 +1,10 @@
+framework module BitcodeLibrary {
+  umbrella header "BitcodeLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module BitcodeLibrary.Swift {
+    header "BitcodeLibrary-Swift.h"
+}
